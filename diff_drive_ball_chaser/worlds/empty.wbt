@@ -1,0 +1,372 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.7982557522977135 -0.5666932368396574 -0.2040748128599011 0.8765016436681466
+  position -1.91938096782011 2.9673088776782186 3.435134371983813
+}
+TexturedBackground {
+  luminosity 0.4
+  reflections FALSE
+}
+TexturedBackgroundLight {
+  texture "noon_cloudy_empty"
+}
+RectangleArena {
+  floorSize 3 3
+  floorTileSize 0.7 0.5
+}
+Solid {
+  translation 0.889659 0.100001 1.08669
+  rotation -2.3464099999913877e-06 0.9999999999963296 -1.3546999999950276e-06 -2.094395307179586
+  children [
+    DEF box Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0.5
+      }
+      geometry Box {
+        size 0.4 0.2 0.1
+      }
+    }
+  ]
+  name "solid(13)"
+  boundingObject USE box
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.28 0.05 -0.66
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  boundingObject USE ball
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.41 0.05 0.3
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(10)"
+  boundingObject USE ball
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.11 0.05 -0.43
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(11)"
+  boundingObject USE ball
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.17 0.05 0.04
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(12)"
+  boundingObject USE ball
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.92 0.05 -0.35
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(6)"
+  boundingObject USE ball
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.26 0.05 -0.55
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(7)"
+  boundingObject USE ball
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.43 0.05 -1.34
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(8)"
+  boundingObject USE ball
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.27 0.05 0.62
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(9)"
+  boundingObject USE ball
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.56 0.05 0.3
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject USE ball
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.86 0.05 -0.87
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(3)"
+  boundingObject USE ball
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.92 0.04 1.32
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject USE ball
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.35 0.05 -0.27
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(5)"
+  boundingObject USE ball
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.34 0.05 -0.89
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject USE ball
+  physics Physics {
+  }
+}
+DEF robot Robot {
+  translation 0.428849 0.03375 1.20302
+  rotation 0 1 0 3.14159
+  scale 0.977317 0.977317 0.977317
+  children [
+    Camera {
+    }
+    DistanceSensor {
+      translation 0 0 0.1
+      rotation 0 1 0 -1.5707996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 1
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "center_ds"
+    }
+    DistanceSensor {
+      translation 0.04 0 0.09
+      rotation 0 1 0 -0.6544996938995746
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "left_ds"
+    }
+    DistanceSensor {
+      translation -0.04 0 0.09
+      rotation 0 1 0 -2.3562003061004253
+      name "right_ds"
+      type "infra-red"
+    }
+    DEF caster Solid {
+      translation 0 -0.025 0.08
+      children [
+        DEF caster_shape Shape {
+          appearance PBRAppearance {
+          }
+          geometry Sphere {
+            radius 0.0087
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject USE caster_shape
+      physics Physics {
+      }
+    }
+    DEF hinge1 HingeJoint {
+      jointParameters HingeJointParameters {
+        anchor 0.07 0 -0.03
+      }
+      device [
+        RotationalMotor {
+          name "right_motor"
+        }
+        PositionSensor {
+          name "ps1"
+        }
+      ]
+      endPoint Solid {
+        translation 0.07004396027031562 -1.7854999854244692e-05 -0.02999757265722575
+        rotation 0.01152918651829189 -0.008446155414316661 -0.9998978649426868 4.712516004650093
+        children [
+          DEF wheel_shape Shape {
+            appearance PBRAppearance {
+            }
+            geometry Cylinder {
+              height 0.03
+              radius 0.0325
+            }
+          }
+        ]
+        boundingObject USE wheel_shape
+        physics DEF wheel_physics Physics {
+        }
+      }
+    }
+    DEF body_shape Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        roughness 0.5
+        metalness 0.8
+      }
+      geometry Box {
+        size 0.11 0.035 0.174
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        anchor -0.07 0 -0.03
+      }
+      device [
+        RotationalMotor {
+          name "left_motor"
+        }
+        PositionSensor {
+          name "ps2"
+        }
+      ]
+      endPoint Solid {
+        translation -0.07004929983856045 1.2278168915146088e-05 -0.029984015022706426
+        rotation -0.01676847053820522 0.017325594096599586 0.9997092788331062 1.5708727813521046
+        children [
+          USE wheel_shape
+        ]
+        name "solid(1)"
+        boundingObject USE wheel_shape
+        physics USE wheel_physics
+      }
+    }
+  ]
+  boundingObject USE body_shape
+  physics Physics {
+  }
+  controller "Get_open_loop"
+}

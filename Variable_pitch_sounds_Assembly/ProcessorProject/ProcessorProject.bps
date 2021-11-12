@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<System Name="ProcessorProject" Mc="Common\8052.mc" Expanded="True" cSystem="False">
+  <Config Expanded="True">
+    <Frequency Value="12" />
+    <FrequencyDivider Value="1" />
+    <CreateLibrary Value="False" />
+    <Compiler Value="0" />
+    <XDataInitFile Value="" />
+    <UseXDataInitFile Value="False" />
+    <MemorySize Value="65536" />
+    <CreateCallGraphLog Value="False" />
+    <XRamOffset Value="0" />
+    <XRamSize Value="32768" />
+    <bxcdl Value="0" />
+    <BxAsmPP Value="12" />
+    <sdcc_linker_args Value="" />
+    <allow_code_overwrites Value="False" />
+    <code_overrides Value="" />
+    <CreatePreprocessorOutput Value="False" />
+    <CreatePPDump Value="False" />
+    <CreateGPDump Value="False" />
+    <c51DEBUG Value="True" />
+    <bl51NLIB Value="True" />
+    <DisableWarnings Value="False" />
+  </Config>
+  <OutputFolder Expanded="True">
+    <File Name="out.bin" />
+    <File Name="out.hex" />
+    <File Name="out.mhx" />
+  </OutputFolder>
+  <DocumentFolder Expanded="False" />
+  <SourceFolder Expanded="True">
+    <File Name="declarations.asm" />
+    <File Name="main.asm" />
+  </SourceFolder>
+</System>
