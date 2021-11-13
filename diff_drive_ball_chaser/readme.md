@@ -11,6 +11,6 @@
 ## Check out this image that shows the response comparison between Fuzzy logic and PID, Fuzzy logic controller needs more tuning 
 ## to get better performance
 ## The data folder contains a jupyter notebook that I used to generate the response plot using matplotlib
-## ![alt text](responses.png "PID vs Fuzzy")
+## ![alt text](responses.PNG "PID vs Fuzzy")
 ## The robot gets a little crazy sometimes when the error signal gets pretty high, I need to tune this mores
 ## Hope you like the project 
