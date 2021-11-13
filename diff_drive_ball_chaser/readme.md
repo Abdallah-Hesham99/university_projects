@@ -1,6 +1,6 @@
 ## This project is a simulation of a differential drive mobil robot that uses dead reckoning to estimate its position and orientation
 ![alt text](Simulation.png "The robot on PID control")
-## The robot has three infrared sensors mounted to the front of the robot, it uses these sensors to chase the balls and hit them
+## The robot has three infrared sensors mounted to the front of the robot, it uses these sensors to chase the balls and avoid them
 ## PID control and fuzzy control are used to control the orientation angle for the robot, there are mainly two controllers, 
 ## fuzzy_diff: which uses a Fuzzy logic controller based on the scikit-fuzzy package
 ## diff_drive_with_PID: which uses a PID controller based on simple-pid python package
